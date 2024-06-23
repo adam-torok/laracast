@@ -20,9 +20,8 @@
                     <div>
                         <div class="ml-10 flex items-baseline space-x-4">
                             <x-nav-link :active="request()->is('/')" href="/">Dashboard</x-nav-link>
-                            <x-nav-link :active="request()->is('about')" href="/about">About</x-nav-link>
+                            <x-nav-link :active="request()->is('jobs')" href="/jobs">Jobs</x-nav-link>
                             <x-nav-link :active="request()->is('contact')" href="/contact">Contact</x-nav-link>
-                            <x-nav-link type="button" :active="request()->is('login')" href="/contact">Login</x-nav-link>
                         </div>
                     </div>
                 </div>
